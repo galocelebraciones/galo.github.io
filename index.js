@@ -137,6 +137,6 @@ function clearInputs() {
     }).then(
       msg => alert("email se ha enviado")
     );
-}
+}*/
 
 
