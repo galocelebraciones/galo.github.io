@@ -97,7 +97,7 @@ function validateForm() {
   } 
 
   if (!errorFlag) {
-    sendEmail(nameInput, email1, message1);
+    //sendEmail(nameInput, email1, message1);
     setTimeout(() => {
       document.querySelector(".popup-wrapper").style.transform = "scale(1)";
       document.querySelector(".popup-wrapper").style.visibility = "visible";
@@ -127,7 +127,7 @@ function clearInputs() {
   field.value = "";
 }
 
-function sendEmail(nameInput, email1, message1) {
+/*function sendEmail(nameInput, email1, message1) {
     Email.send({
         SecureToken : "f25f119a-d993-4504-999a-acd3eb7d5251",
         To : "galocelebracionesyeventos@hotmail.com",
